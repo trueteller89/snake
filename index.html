@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="ut-f-8">
+
+ <title>Snake</title>
+ <style>
+ canvas {
+ border: 1px dashed black;
+ }
+ </style>
+
+ <script src="snake.js"></script>
+</head>
+<body>
+ <canvas id="canvas" width="400" height="400"></canvas>
+<div id="lvltext" ></div>
+<div id="lngtext" ></div>
+<div>
+  <button onclick="startGame(200)">Easy</button>
+  <button onclick="startGame(100)">Middle</button>
+  <button onclick="startGame(75)">Hard</button>
+</div>
+<div>
+<img id = "imageElement">
+<img id = "imageTarget">
+</div>
+<div  >Use arrows 'left', 'up', 'rigth' and 'down' to move your snakeblocks!</div>
+<div  >p.s.:better test this game with ie11 or mozilla firefox. </div>
+</body>
+</html>
